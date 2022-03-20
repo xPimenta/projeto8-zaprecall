@@ -91,8 +91,114 @@ header p {
 }
 
 .cards{
-    margin-top: 200px;
+    margin-top: 82px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.question-card {
+    width: 182px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 13px 13px 13px 6px;
+}
+
+.question-card img {
+    width: 13px;
+    height: 15px;
+}
+
+.question-card p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+}
+
+.opened-card {
+    width: 182px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 13px 6px;
+}
+
+.opened-card img {
+    width: 20px;
+    height: 13px;
+    position: absolute;
+    bottom: 8px;
+    right: 7px;
+}
+
+.opened-card p {
+    margin-right: 25px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+}
+
+.answer-card {
+    width: auto;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 80px;
+    background: #FFFFD5;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.answer-card p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+.buttons {
+    width: 182px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+}
+
+.buttons button {
+    width: calc(33%);
+    min-height: 28px;
+    border-radius: 5px;
+    font-family: 'Recursive';
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8px;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 5px;
+}
+
+.buttons button:nth-child(1){
+    background-color: #FF3030;
+}
+
+.buttons button:nth-child(2) {
+    background: #FF922E;
+}
+
+.buttons button:nth-child(3) {
+    background: #2FBE34;
 }
