@@ -169,7 +169,7 @@ header p {
     margin-top: 5px;
     margin-left: 6px;
 }
-.buttons {
+.answers {
     width: 182px;
     display: flex;
     justify-content: space-around;
@@ -178,7 +178,7 @@ header p {
     padding-left: 5px;
 }
 
-.buttons button {
+.answers button {
     width: calc(33%);
     min-height: 28px;
     border-radius: 5px;
@@ -191,14 +191,18 @@ header p {
     margin-right: 5px;
 }
 
-.buttons button:nth-child(1){
-    background-color: #FF3030;
+.answers button:nth-child(1){
+    background: #FF3030;
 }
 
-.buttons button:nth-child(2) {
+.answers button:nth-child(2) {
     background: #FF922E;
 }
 
-.buttons button:nth-child(3) {
+.answers button:nth-child(3) {
     background: #2FBE34;
+}
+
+.hidden{
+    display: none;
 }

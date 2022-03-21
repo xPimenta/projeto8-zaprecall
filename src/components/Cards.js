@@ -1,6 +1,6 @@
-export default function Cards() {
+// export default function Cards() {
 
-    return(
-        <div class="cards"></div>
-    );
-}
+//     return(
+//         <div className="cards"></div>
+//     );
+// }
