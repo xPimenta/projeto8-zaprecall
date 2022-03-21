@@ -90,6 +90,90 @@ header p {
     margin-left: 5px;
 }
 
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+}
+
+footer button {
+    width: 151px;
+    height: 51px;
+    background: #FB6B6B;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Recursive';
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+
+.zap-end {
+    position: absolute;
+    width: 100%;
+    height: 145px;
+    bottom: 0;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.15);
+    padding-top: 13px;
+}
+
+.zap-end .title {
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.zap-end .title img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.zap-end p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.status-icon {
+    display: flex;
+    margin-top: 5px;
+}
+
+.status-icon img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.deck {
+    width: 100%;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+}
+
 .cards{
     margin-top: 82px;
     display: flex;
@@ -205,4 +289,64 @@ header p {
 
 .hidden{
     display: none;
+}
+
+.not-remember {
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 13px 13px 13px 6px;
+    pointer-events: none;
+}
+
+.not-remember p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+    color: #FF3030;
+}
+
+.almost-not-remember {
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 13px 13px 13px 6px;
+    pointer-events: none;
+}
+
+.almost-not-remember p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+    color: #FF922E;
+}
+
+.zap {
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 13px 13px 13px 6px;
+    pointer-events: none;
+}
+
+.zap p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+    color: #2FBE34;
 }

@@ -3,14 +3,10 @@ import { useState } from "react"
 
 import InitialPage from './components/InitialPage';
 import Header from './components/Header';
-// import Cards from './components/Cards';
+import Cards from './components/Cards';
 
 function App() {
     const [pageStatus, setPageStatus] = useState("initial")
-
-    // function start(){
-    //     setPageStatus("start");
-    // }
 
     return (
         <>
@@ -20,7 +16,7 @@ function App() {
                 />
                 : <>
                     <Header />
-                    {/* <Cards /> */}
+                    <Cards />
                 </>
             }
         </>
